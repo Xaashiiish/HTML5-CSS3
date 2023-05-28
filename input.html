@@ -1,0 +1,69 @@
+<html>
+    <link rel="stylesheet" href="/input.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+    <title>appointment dose</title>
+    <h3 class="bhd">Bhardwaj vaccination</h3>
+    <body>
+        <form>
+            <div>
+            <label for="text">Enter your name</label>
+            <input type="text">
+            <label for="country">country</label>
+            <input type="text" class="country" list="country">
+            <label for="number">Age</label>
+            <input type="number" >
+            <label for="date">Registration Date</label>
+            <input type="date">
+            <label for="email">Email</label>
+            <input type="email">
+            <label for="password">Set a strong password</label>
+            <input type="password">
+
+            <datalist id="country">
+                <option>india</option>
+                <option>pakistan</option>
+                <option>japan</option>
+                <option>canada</option>
+                <option>australia</option>
+
+            </datalist>
+            
+                <label for="dctrr">Appoint to</label>
+                <input type="text" class="dctrr" list="dctr">
+                <datalist id="dctr">
+                    <option>Random</option>
+                    <option>negi</option>
+                    <option>Satish ray</option>
+                    <option>Mittal da</option>
+
+                </datalist>
+                <select >
+                <optgroup label="covid" aria-placeholder="select dose">
+                    <option value="1">1st dose</option>
+                    <option value="2">2nd dose</option>
+                    <option value="3">booster</option>
+                </optgroup>
+                <optgroup label="hyppotitus">
+                    <option value="1">h1 dose</option>
+                    <option value="2">h2 dose</option>
+                    <option value="3">h3 dose</option>
+                    <option value="4">booster optional</option>
+
+
+                </optgroup>
+            </select>
+            <select>
+                <option value=""></option>
+                <option value="1">HTML</option>
+                <option value="2">css3</option>
+                <option value="3">java</option>
+            </select>
+
+            <input type="checkbox" id="front-end">
+            <label class="label-inline" for="front-end">Aggree to all terms and conditions.</label>
+        </div>
+        <button type="submit">Register</button>
+        <button class="button-outline" type="reset">Reset all changes</button>
+        </form>  
+    </body>
+</html> 

@@ -1,0 +1,30 @@
+form{
+    width: 40%;
+    padding: 2rem;
+}
+textarea {
+    resize: none;
+}
+.bhd {
+    font-weight: bold;
+    color: silver;
+    text-decoration: underline;
+    margin-left: 2rem;
+}
+body {
+    background: url(images/118695-popular-black-gradient-background-2560x1600.jpg);
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+label {
+    color: white;
+}
+input {
+    color: whitesmoke;
+    font-weight: bold;
+}
+optgroup {
+    color:grey;
+}
