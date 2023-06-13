@@ -1,0 +1,106 @@
+
+body {
+    background-image: url(../order-summary-component-main/images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -20rem;
+}
+.card {
+    border-radius: 10px;
+    box-decoration-break: 0 0 20px 10px #f3f3f3;
+    overflow: hidden;
+    background-color: rgb(250, 246, 246);
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.card__header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head {
+    text-align: center;
+
+}
+.txtt { 
+    text-align: center;
+    font-size: 1rem;
+    padding: 0 2.2rem;
+    color: grey;
+ }
+.card__header , .card__body {
+    padding: 2rem 3 rem;
+}
+.btnnn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.change {
+    border: none;
+    color: hsl(223, 61%, 28%);
+    font-weight: bold;
+    background: none;
+    text-decoration: underline;
+
+}
+.inpit {
+
+    background-color:  hsl(225, 100%, 94%);
+    padding: 1.5rem 1rem ;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18rem;
+    height: 3.2rem;
+    margin-left: 1.1rem;
+}
+.prize {
+    padding: 1rem;
+    font-weight: bold;
+}
+.rs {
+    font-size: o.9rem;
+
+}
+.prize::after{
+ content: " $99.99/year";
+ font-weight: 500;
+}
+.btnnnn {
+    background: none;
+    font-weight: bold;
+    color: hsl(223, 47%, 23%);
+    border: none;
+
+}
+.btn {
+    background-color: hsl(223, 47%, 23%);
+    color: white;
+    font-weight: bold;
+    width: 20rem;
+    height: 3rem;
+    border-radius: 10px;
+    box-decoration-break: 0 0 20px 10px #f3f3f3;
+}
+.ooo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.music {
+    box-shadow: 0 0 20px 10px #f3f3f3;
+    border-radius: 50%;
+
+}
+body {
+    margin-left: 42rem;
+    background-color: hsl(217, 54%, 11%);}
+.cardmain {
+    margin-top: 9rem;
+}

@@ -1,0 +1,69 @@
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card {
+    width: 300px;
+    padding: 35px;
+    margin-top: 170px;
+  }
+  
+  .card-one {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 15px 0 0 15px;
+
+  }
+  
+  .card-two {
+    background-color: hsl(184, 100%, 22%);
+
+  }
+  
+  .card-three {
+    background-color: hsl(179,100% , 13%);
+    border-radius: 0 15px 15px 0 ;
+  }
+  .logo {
+    padding-top: 1.5rem;
+  }
+  .title {
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: aliceblue;
+    font-family: 'Big Shoulders Display', cursive;
+  }
+  .description {
+    font-size: 16px;
+    color: #ddd;
+    font-family: 'Lexend Deca', sans-serif;
+    word-spacing: 15px;
+    font-weight: 300;
+    width: 230px;
+    word-break: keep-all;
+  }
+  .btnn {
+    margin-top: 4.8rem;
+    margin-bottom: 1.5rem;
+    padding: 1rem 1.8rem;
+    font-size: 0.8rem;
+    border: 0;
+    border-radius: 170px;
+    font-family: 'Lexend Deca', sans-serif;
+  }
+  .btnn-one {color: hsl(31, 77%, 52%);}
+  .btnn-two {color: hsl(184, 100%, 22%);}
+  .btnn-three {color: hsl(179,100% , 13%);}
+
+  @media only screen and (max-width: 600px) {
+    .card-container {
+      flex-direction: column;
+      align-items: center;
+      margin-top: 0;
+    }
+    
+    .card {
+      margin-top: 1.5rem;
+    }
+ }
