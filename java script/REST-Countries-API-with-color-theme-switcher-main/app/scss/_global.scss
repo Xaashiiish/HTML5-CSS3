@@ -1,0 +1,37 @@
+// Global styles
+@import 'colors';
+
+html{
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    line-height: 1.3rem;
+    background-color: $light-bg-main;
+    color: $light-font;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+li{
+    list-style: none;
+}
+
+img{
+    width: 100%;
+    display: block;
+}
+

@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+body {
+    background-color: rgb(236, 229, 229);
+}
+.page-one {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    box-shadow: 0 0 20px 2px hsla(217, 76%, 8%, 0.748);
+    background-image: url(/HTML5-CSS3/clipboard-landing-page-master/images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-position-x: -100px;
+    background-size: 189% 20%;   
+    overflow: hidden;
+}
+.header-icon {
+    opacity: 60%;
+    padding-top: 40px;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header-icon:hover {
+    opacity: 100%;
+    transition-duration: 3s;
+}
+.page-head {
+  display: block;
+}   
+
+.header-title {
+    font-weight: bold;
+    font-size: 36px;
+    padding-top: 30px;
+    text-align: center;
+  color: darkslategray;
+
+    }
+.header-discription {
+    text-align: center;
+    padding: 0 5%;
+    color: rgb(161, 158, 158);
+    }
+.buttons {
+ display:flex;
+ padding-top: 30px;
+ align-items: center;
+ justify-content: center;
+ padding-bottom: 80px;
+}
+.button {
+    width: 200px;
+    font-size: 20px;
+    padding: 5px 10px;
+    margin: 10px;
+    height: 80px;
+    border-radius: 60px;
+}
+.button:hover {
+    box-shadow: 0 0 20px 2px hsl(208, 62%, 85%);
+    font-size: 15px;
+    transition-duration: 3s;  
+}
+
+.button-primary {
+    border: 0;
+    background-color: green;
+    color: aliceblue;
+}
+.button-secondary {
+    border: 0;
+    background-color: rgb(32, 80, 100);
+    color: aliceblue;
+}
+.body-title {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(46, 46, 45);
+    text-align: center;
+}
+.body-discription {
+    text-align: center;
+    padding: 2px 10%;
+    color: darkgrey;
+    padding-bottom: 100px;
+}
+.body-image {
+    width: 52%;
+    height: auto;
+}
+.image {
+    display: inline-flex;
+}
+.image-about {
+    display: block;
+    text-align: left;
+    padding: 20px 0 0 100px;
+}
+.image-title {
+    font-size: 30px;
+}
+.image-description {
+  color: rgb(100, 107, 107);
+  padding-bottom: 50px;
+}
+.middle-page {
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.middle-title {
+    padding: 100px 0 0 0;
+    font-size: 30px;
+  text-align: center;
+}
+.middle-description {
+    text-align: center;
+    padding: 0 10%;
+    color: gray;
+    padding-bottom: 40px;
+}
+.image-devices {
+    width: 500px;
+    height: auto;
+    padding: 1 23%;
+}
+.bottom-title {
+    padding: 35px 0 0 0;
+  text-align: center;
+  
+}
+.bottom-description {
+    text-align: center;
+    color: gray;
+}
+.bottom-icons {
+    display: inline-flex;
+    padding: 80px 60px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.icon {
+    display: block;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.description {
+    color: grey;
+}
+.five-icons {
+    padding:
+}
+.brand-icons {
+    padding: 0 20px;
+}
+.clipboard-title {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 90px;
+}
+.clipboard-description {
+    text-align: center;
+    color: gray;
+    padding: 5px 10% 0;
+}
+.credits {
+    background-color: rgba(230, 226, 226, 0.873);
+    box-shadow: 0 0 20px 2px hsla(225, 2%, 47%, 0.748);
+}
+.logo {
+    padding: 50px 100px 50px 0;
+    height: 60px;
+    width: 60px;
+}
+.credits {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-social {
+    width: 45px;
+    height: 45px;
+}

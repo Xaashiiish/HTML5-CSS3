@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | Intro component with sign up form</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="main">
+      <div class="container">
+        <div class="title-container">
+          <h2>Learn to code by watching others</h2>
+          <p class="scroll">
+            See how experienced developers solve problems in real-time. Watching
+            scripted tutorials is great, but understanding how developers think
+            is invaluable.
+          </p>
+        </div>
+        <div class="form-container">
+          <div class="header">
+            <p>Try it free 7 days then $20/mo. thereafter</p>
+          </div>
+          <div class="form">
+            <form
+              name="myForm"
+              action=""
+              onsubmit="return validateForm()"
+              method="post"
+            >
+              <input
+                type="text"
+                name="fname"
+                placeholder="First Name"
+                id="form1"
+                class="form1"
+              />
+              <p id="alert-fname"></p>
+              <input
+                type="text"
+                name="lname"
+                placeholder="Last Name"
+                id="form2"
+                class="form2"
+              />
+              <p id="alert-lname"></p>
+              <input
+                type="email"
+                name="email"
+                placeholder="Email Address"
+                id="form3"
+                class="form3"
+              />
+              <p id="alert-email"></p>
+              <input
+                type="text"
+                name="password"
+                placeholder="Password"
+                id="form4"
+                class="form4"
+              />
+              <p id="alert-password"></p>
+              <button type="submit" class="btn">Claim your free trial</button>
+            </form>
+            <div class="cond">
+              <p>
+                By clicking the button, you are agreeing to our
+                <span>Terms and Services</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Ashish Kumar</a>.
+      </p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

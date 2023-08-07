@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&display=swap');
+html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    text-transform: uppercase;
+}
+body {
+    background: radial-gradient(circle, hsl(214, 47%, 23%), hsl(237, 49%, 15%));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+header {
+    margin-top: 50px;
+    outline: hsl(217, 16%, 45%) solid 3px;
+    width: 800px;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo > img {
+    height: 100%;
+}
+main {
+    width: 100%;
+    height: 600px;
+}
+.score {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    padding: 0px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.score-title {
+    font-weight: 600;
+    font-size: 18px;
+    color: hsl(229, 64%, 46%);
+    letter-spacing: 2px;
+}
+.score-number {
+    font-weight: 700;
+    font-size: 60px;
+    color: hsl(229, 25%, 31%);
+    letter-spacing: 2px;
+    margin-top: -15px;
+    margin-bottom: 15px;
+}
+.hands {
+    width: 500px;
+    height: 450px;
+    background: url(../images/bg-triangle.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 60px auto 0;
+}
+.hand-choices {
+    width: 200px;
+    height: 200px;
+    margin: 0 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.hand-choices:hover {
+    transform: scale(1.1,1.1);
+}
+.hand-choices:active {
+    transform: scale(1,1);
+}
+
+.contest {
+    margin: 60px auto 0;
+    display: none;
+    width: 700px;
+    height: 280px;
+    justify-content: space-between;
+    transition: 0.3s;
+}
+.youPicked h1 {
+    color:hsl(0, 0%, 100%);
+}
+.pickedIMG {
+    width: 200px;
+    height: 200px;
+}
+.decision {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.decision h1 {
+    color:hsl(0, 0%, 100%);
+    font-size: 45px;
+}
+.decision button {
+    color: hsl(229, 25%, 31%);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 15px;
+    background-color:hsl(0, 0%, 100%);
+    border-radius: 5px;
+    border: none;
+    padding: 15px 60px;
+    margin-top: -10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.decision button:hover {
+    color: hsl(349, 71%, 52%);
+}
+.decision button:active {
+    transform: scale(0.9,0.9);
+}
+
+.comhand h1 {
+    color:hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: center;
+}
+.youPicked , .decision , .comhand {
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.winner {
+    border-radius: 50%;
+    box-shadow: 0 0 50px hsla(0, 0%, 100%, 40%);
+    animation: win 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes win {
+    0% {transform: scale(1,1);}
+    50% {transform: scale(1.1,1.1);}
+    100% {transform: scale(1,1);}
+}
+.btn-rules {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    text-transform: uppercase;
+    color:hsl(0, 0%, 100%);
+    background: transparent;
+    border: none;
+    border-radius: 5px;
+    outline: hsl(217, 16%, 45%) solid 3px;
+    padding: 10px 35px;
+    cursor: pointer;
+    transition: 0.3s;
+    position: fixed;
+    top: 90%;
+    left: 90%;
+    overflow-x: hidden;
+}
+.btn-rules:hover {
+    background: hsla(0, 0%, 100%, 20%);
+}
+.btn-rules:active {
+    transform: scale(0.9,0.9);
+}
+.rulespage {
+    background-color: rgba(0, 1, 15, 0.8);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.panel-rules {
+    margin: 0 auto;
+    position: absolute;
+    padding: 15px 30px;
+    width: 400px;
+    height: 400px;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+.rulesitem:nth-child(3n) {
+    flex-basis: 100%;
+    margin-top: 20px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+.btn-close {
+    cursor: pointer;
+}

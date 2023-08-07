@@ -1,0 +1,9 @@
+.left {
+    background-color: cadetblue;
+    height: 50%;
+    width: 60%;
+
+}
+.right {
+    display: inline;
+}

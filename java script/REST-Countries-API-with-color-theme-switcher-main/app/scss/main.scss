@@ -1,0 +1,20 @@
+@import 'global';
+@import 'fonts';
+@import 'colors';
+
+
+// media queries
+@import 'views/for-phone-only';
+@import 'views/for-tablet-up';
+@import 'views/for-desktop-up';
+
+
+
+
+// Fontawesome CDN - to be added into html head
+// <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+
+
+// GSAP animations - to be added into end of html body
+// <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+

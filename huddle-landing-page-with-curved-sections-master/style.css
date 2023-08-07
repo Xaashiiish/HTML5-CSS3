@@ -1,0 +1,87 @@
+* {
+    font-family: 'Exo 2', sans-serif;
+}
+.header-icon {
+    padding: 40px;
+}
+.header-right {
+    
+}
+.heading {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 900;
+    padding: 50px 0 0 0;
+}
+.heading-description {
+    text-align: center;
+    color: gray;
+    padding: 0 27%;
+}
+.button {
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.getting-started {
+    padding: 15px 45px;
+    border-radius: 30px;
+    border: none;
+    background-color: brown;
+    color: white;
+    font-weight: 450;
+    font-size: larger;
+}
+.getting-started:hover {
+    color: black;
+    background-color: rgb(226, 61, 61);
+    box-shadow: 0 0 20px 2px hsla(217, 76%, 8%, 0.748);
+}
+.mockup {
+   width: 900px;
+   padding: 0 23%;
+}
+.community {
+    display: inline-flex;
+    padding: 0;
+}
+.social {
+    display: inline-block;
+    padding: 50px 250px 0 395px;
+}
+.social-icon {
+    padding-bottom: 0;
+    display: inline-block;
+
+}
+.reach {
+    font-size: 42px;
+    font-weight: bolder;
+}
+.description {
+    color: rgb(101, 100, 100);
+}
+.image {
+    width: 650px;
+    padding-bottom: 100px;
+    height: auto;
+    display: block;
+}
+.images-mid {
+    padding: 100px 0 0;
+}
+.mid-one {
+    display: inline-flex;
+}
+.mid-title {
+    font-size: 40px;
+    font-weight: 800;
+    padding: 50px 400px 0 100px;
+}
+.mid-two {
+    display: inline-flex;
+}
+.mid-three {
+    display: inline-flex;
+}

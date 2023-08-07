@@ -56,14 +56,32 @@
   .btnn-two {color: hsl(184, 100%, 22%);}
   .btnn-three {color: hsl(179,100% , 13%);}
 
-  @media only screen and (max-width: 600px) {
-    .card-container {
-      flex-direction: column;
-      align-items: center;
-      margin-top: 0;
-    }
-    
-    .card {
-      margin-top: 1.5rem;
-    }
- }
+  /* Mobile Styles */
+@media only screen and (max-width: 600px) {
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .card {
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  .card-three {
+    border-radius: 0 0 15px 15px  ;
+  }
+  .card-one {
+    border-radius: 15px 15px 0 0;
+  }
+  }
+  
+  .description {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  
+  .btnn {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+}

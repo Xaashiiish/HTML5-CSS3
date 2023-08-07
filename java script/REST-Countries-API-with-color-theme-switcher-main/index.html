@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REST Countries API - Home</title>
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap" rel="stylesheet">
+
+    <!-- FONT AWESOME ICONS CDN -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet"/>
+
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css">
+
+
+    <!-- CSS  -->
+    <link rel="stylesheet" href="./dist/main.css">
+
+</head>
+<body class="">
+
+    <div class="sticky">
+        <div class="header">
+            <div class="header-inner-container">
+                <a onclick="home()"><p>Where in the world?</p></a>
+    
+                <div class="modes">
+                    <i class="fas fa-adjust"></i>
+                    <p>Dark Mode</p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="back hide">
+            <a><i class="fas fa-arrow-left"></i> Back</a>
+        </div>
+    
+        <div class="conditions">
+            <div class="conditions-inner-container">
+                <div class="search">
+                    <i class="fas fa-search"></i>
+                    <input 
+                        type="text"
+                        name = "searchBar"
+                        id = "searchBar"
+                        placeholder="Search for a country...">
+                </div>
+            
+                <div class="filter">
+                    <select id="regions" onchange="targetRegion()">
+                        <option value="" disabled selected>
+                            Filter By Region
+                            &#9660;
+                        </option>
+                        <option value="africa">Africa</option>
+                        <option value="americas">America</option>
+                        <option value="asia">Asia</option>
+                        <option value="europe">Europe</option>
+                        <option value="oceania">Oceania</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="countries">
+        <div class="countries-inner-container">
+            <ul>
+
+            </ul>
+        </div>
+    </div>
+
+    <div class="targetCountry hide">
+        <div class="targetCountry-flag">
+
+        </div>
+
+        <div class="targetCountry-content">
+            <div class="targetCountry-name">
+
+            </div>
+            <div class="targetCountry-content-left-right">
+                
+            </div>
+            <div class="targetCountry-content-borders">
+
+            </div>
+        </div>
+    </div>
+
+    <script src="./app/js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+.column {
+    float: left;
+    width: 33.33%;
+    height: 100vh;
+  }
+  
+  .column-1 {
+    background-color: #FFC0CB; /* Light Pink */
+  }
+  
+  .column-2 {
+    background-color: #FFFF00; /* Yellow */
+  }
+  
+  .column-3 {
+    background-color: #ADD8E6; /* Light Blue */
+  }
+  
+  .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  

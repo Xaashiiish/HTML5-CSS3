@@ -101,9 +101,6 @@ body {
 
   
   @media only screen and (max-width: 400px) {
-    body {
-      zoom: 2.5;
-    }
   
     .cardmain {
       width: 80%;
